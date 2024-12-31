@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="../CSS/custum.css" rel="stylesheet">
+    <style>
+        .jumbotron {
+            background: url('../Images/slider1-bg.jpg') center center;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        #home {
+            color: darkred;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100vh;
+            text-align: left;
+            height: 400px;
+        }
+        
+        #home .btn {
+            background: #eb5424;
+            border-radius: 4px;
+            border: none;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 20px 40px;
+            margin-top: 60px;
+        }
+        
+        #home .btn:hover {
+            background: #fff;
+            color: #eb5424;
+            transition: all 0.4s ease-in-out;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project Html</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Navigatie</li>
+                            <li><a href="Marrokohome.html">Marroko</a></li>
+                            <li><a href="Cod.html">Call Of Duty</a></li>
+                            <li><a href="mediapage.html">Mediapage</a></li>
+                            <li><a href="youtubepage.html">Youtubepag</a></li>
+                            <li><a href="List.html">List</a></li>
+                            <li class="divider"></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h1 class="wow bounceInDown rotate">The MediaPage</h1>
+                        <h2 class="wow bounce">The place to BE</h2>
+                        <a href="#top" class="btn btn-default smoothScroll">Ga Naar media</a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row" id="top">
+            <div class="col-md-6">
+                <h2>Natuur</h2>
+                <video width="400" autoplay controls>
+                    <source src="../Video/449470606.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+                <p><a class="btn btn-default" href="https://videos.pexels.com/" role="button">View source &raquo;</a></p>
+            </div>
+            <div class="col-md-6">
+                <h2>People</h2>
+                <video width="400" controls>
+                    <source src="../Video/343639076.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+                <p><a class="btn btn-default" href="https://videos.pexels.com/" role="button">View source &raquo;</a></p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Natuur2</h2>
+                <video width="500" controls>
+                    <source src="../Video/449470606.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+                <p><a class="btn btn-default" href="https://videos.pexels.com/" role="button">View source &raquo;</a></p>
+            </div>
+            <div class="col-md-6">
+                <h2>People2</h2>
+                <video width="500" controls>
+                    <source src="../Video/343639076.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+                <p><a class="btn btn-default" href="https://videos.pexels.com/" role="button">View source &raquo;</a></p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Toys</h2>
+                <video width="1000" controls>
+                    <source src="../Video/small.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+                <p><a class="btn btn-default" href="https://videos.pexels.com/" role="button">View source &raquo;</a></p>
+            </div>
+
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="navbar navbar-default " role="navigation">
+                <div class="container">
+                    <div class="navbar-text pull-left">
+                        <p>© created by Hamza Hannach.</p>
+                    </div>
+                    <div class="navbar-text pull-right">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /container -->
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>

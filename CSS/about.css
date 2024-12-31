@@ -1,0 +1,105 @@
+body {
+    padding-top: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background-color: aliceblue;
+}
+
+.jumbotron {
+    background-color: floralwhite;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+
+/*animationton *\
+
+body {
+    font-family: "BarnaulGrotesk";
+}
+.basic {
+    font-size: 2em; /*increased font size*/
+
+color: green;
+
+/*set a font color to green*/
+
+-webkit-animation-name: basic;
+
+/* Chrome, Safari, Opera */
+
+-webkit-animation-duration: 4s;
+
+/* Chrome, Safari, Opera */
+
+animation-duration: 4s;
+
+/*set how long will the animation run*/
+
+animation-name: basic;
+
+/*give the animation a name to refer later in keyframes*/
+
+
+}
+@keyframes basic {
+    /*refer to our current keyframe: basic*/
+    
+    from {
+        color: green;
+    }
+    /*start animation with this property and value*/
+    
+    to {
+        color: red;
+    }
+    /*end the animation with this property and value*/
+}
+.ex3 {
+    font-size: 2em;
+    color: green;
+    position: relative;
+    -webkit-animation-name: example-3;
+    -webkit-animation-duration: 4s;
+    animation-duration: 3s;
+    /*changed duration to 3s*/
+    
+    animation-name: example-3;
+}
+@keyframes example-3 {
+    /*applying multiple animations*/
+    
+    0% {
+        color: indianred;
+        left: 0px;
+        top: 0px;
+    }
+    
+    25% {
+        color: magenta;
+        left: 50px;
+        top: 10px;
+    }
+    
+    50% {
+        color: peru;
+        left: 100px;
+        top: 15px;
+    }
+    
+    100% {
+        color: forestgreen;
+        left: 150px;
+        top: 20px;
+    }
+}
